@@ -66,7 +66,7 @@ function Home(){
         <button type="submit" className="search-button">Search</button>
       </form>
 
-      {error && <div className="error-message">{error}</div>}
+      {error && <div className="error-message">{error.message}</div>}
 
       {loading ? 
         <div className="loading">Loading...</div> :
